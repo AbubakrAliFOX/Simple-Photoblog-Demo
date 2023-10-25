@@ -1,0 +1,33 @@
+h1 {
+    font-family: 'Montez' cursive;
+    text-transform: uppercase;
+    padding-bottom :1.666%;
+    display: inline-block;
+}
+
+.images img {
+    text-align: center;
+    width: 30%;
+    height: 25rem;
+    margin: 1.66%;
+    display: inline-block;
+    transition: 2s;
+    opacity: 0.6;
+}
+
+.head {
+    border-bottom: solid 2px #181833;
+    margin: 1.66%;
+
+}
+
+.head img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.images img:hover {
+    transform: scale(1.5);
+    opacity: 1;
+}
